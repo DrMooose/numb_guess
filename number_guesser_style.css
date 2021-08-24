@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Nunito';
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    margin: 8rem 25rem;
+    padding: 3rem;
+    border-radius: 40px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: .4rem .5rem;
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+
+button#easy {
+    background-color: lightgreen;
+}
+
+button#med {
+    background-color: yellow;
+}
+
+button#hard {
+    background-color: rgb(230, 68, 68);
+}
+
+#start {
+    display: block;
+}
+
+#name, #difficulty, #play, #end{
+    display: none;
+    
+}
+
+#difficulty {
+    line-height: 10px;
+}
